@@ -50,3 +50,6 @@ rsconnect/
 
 # data
 data/
+
+# Analysis objects
+Analysis/
