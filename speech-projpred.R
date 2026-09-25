@@ -198,7 +198,7 @@ print(smmry, digits = 1)
 
 
 
-if(!file.exists("CASI cutoff ROC projpred/Analysis/cvvs2_impaired.Rds")) {
+if(!file.exists("Analysis/cvvs2_impaired.Rds")) {
   options(future.globals.maxSize= 15000*1024^2)
 
   doFuture::registerDoFuture()
